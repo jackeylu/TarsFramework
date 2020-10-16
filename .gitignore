@@ -1,6 +1,13 @@
+#ignore temporal files
 *~
 
+# ignore generated files
 build/
 !build/build.sh
 !build/README.md
 download/
+
+# for vscode
+.code/
+*.code-workspace
+
